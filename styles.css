@@ -1,0 +1,63 @@
+#bodd{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    background-color: rgb(113, 175, 154);
+}
+
+#name,#username,#email,#password,#confirmpassword,#usernameemail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 250px;
+    height: 25px;
+    color:black;
+}
+
+label{
+    color: white;
+}
+
+.regstyle,.loginstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+#reg:hover{
+    font-weight: bolder;
+}
+
+#butt{
+    background-color: white;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    color: black;
+    width: 90px;
+    height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+#butt:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+#outWEL{
+    text-align: center;
+    color: white;
+}
+
+
